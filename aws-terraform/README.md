@@ -1,9 +1,7 @@
 
 ## S3 backend and AWS resource configurations
 
+### Configuration in this directory creates:
+-       S3 backend with statefile locking.
+-       AWS resources: VPC with 3 private and 3 public subnets, EC2, RDS (Postgres), IGW, NAT and Security groups.
 
-### 1. S3 backend setup.
-        Pre-requisites: 
-        Create s3 bucket and dynamoDB, and update the values in this file (https://github.com/raviforkool/terraform/blob/main/aws-terraform/s3_backend.tf) under terraform/backend block.
-        
-### 2. Create and setup various AWS resources.
