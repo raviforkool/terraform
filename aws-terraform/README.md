@@ -6,7 +6,7 @@
 - AWS resources: VPC with 3 private and 3 public subnets, EC2, RDS (Postgres), IGW, NAT and Security groups
 
 ### Usage
-- To run this example, you need to first create S3 bucket and dynamodb, and replace values in s3_terraform.tf file under terraform block for configuring S3 backend with statefile locking successfully.
+- To run this example, you need to first create S3 bucket and dynamodb, and replace values in s3_backend.tf file under terraform block for configuring S3 backend with statefile locking successfully.
 - Next, below commands can be run to initialize and apply.
 
     ```bash
