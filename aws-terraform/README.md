@@ -14,7 +14,7 @@
     $ terraform plan
     $ terraform apply
     ```
-    
+#### Note: Please check the main.tf file for the AZs, VPC, region, subnet cidrs, ec2/rds instance type and update as required before running.
 
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 ## Requirements
