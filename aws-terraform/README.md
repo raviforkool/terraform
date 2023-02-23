@@ -1,7 +1,5 @@
 
-# S3 backend and AWS resource configurations.
-
-
+## S3 backend and AWS resource configurations
 
 
 ### 1. S3 backend setup.
