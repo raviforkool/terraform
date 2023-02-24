@@ -29,3 +29,9 @@
 | Name | Version |
 |------|---------|
 | <a name="provider_aws"></a> [aws](#provider\_aws) | >= 4.55.0 |
+
+## Modules
+
+- VPC: ./modules/aws-demo/vpc
+- RDS: ./modules/aws-demo/rds 
+- EC2: ./modules/aws-demo/ec2
