@@ -2,6 +2,7 @@
 
 ### wordpress:
 - Wordpress application setup on AWS.
+
+### aws-terraform
 - S3 backend setup. 
-### aws-demo
 - Create and setup various AWS resources. 
