@@ -32,6 +32,6 @@
 
 ## Modules
 
-- VPC: ./modules/aws-demo/vpc
-- RDS: ./modules/aws-demo/rds 
-- EC2: ./modules/aws-demo/ec2
+- VPC: ./modules/aws_demo/vpc
+- RDS: ./modules/aws_demo/rds 
+- EC2: ./modules/aws_demo/ec2
