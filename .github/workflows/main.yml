@@ -1,0 +1,16 @@
+---
+name: terraform-lint
+
+on:
+  pull_request:
+    branches:
+      - '*'
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out code
+        uses: actions/checkout@main
+      - name: Lint Terraform
+        uses: actionshub/terraform-lint@main
